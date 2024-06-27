@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "py-template"
+version = "0.1.0"
+description = ""
+authors = ["weiz <azhao.1981@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+requests = "^2.32.3"
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[[tool.poetry.source]]
+name = "py-template"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+priority = "primary"
