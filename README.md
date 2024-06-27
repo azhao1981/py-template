@@ -17,6 +17,9 @@ which uv
 https://python-poetry.org/docs/ 官方的要求是建在虚拟环境中，以防止异常升级造成环境破坏。
 
 ```bash
+# 配置
+cp .env.example .env
+
 build.sh
 # 载入环境
 . .env
