@@ -20,7 +20,6 @@ source ".$project_name/bin/activate"
 # 安装依赖
 uv pip install -r uv.poetry.txt
 
-echo "source .$project_name/bin/activate" >> .env
 echo "PATH=$(pwd)/.py-template/bin:\$PATH" >> .env
 
 # 获取 Git 用户信息
